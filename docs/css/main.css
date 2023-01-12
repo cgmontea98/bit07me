@@ -1,6 +1,7 @@
 *{
-    background-color: yellowgreen;
     color: tomato;
     text-align: center;
-    border: 2px solid black;
+}
+body{
+    background-color: rgba(153, 205, 50, 0.274);
 }
