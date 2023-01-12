@@ -1,7 +1,42 @@
-*{
-    color: tomato;
-    text-align: center;
+* {
+  color: tomato;
 }
-body{
+body {
+    background-color: #fff;
+}
+
+figure{
+    display: grid;
+    place-content: center;
+    gap: 15px;
+}
+
+.fp{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transform: scale(0.5);
+}
+.fp:hover{
+    transform: scale(1);
+    transition: 2s;
+}
+.nom{
+    transform: scale(0.5);
+    position: relative;
+    margin-top: 0;
+}
+
+.nom:hover{
     background-color: rgba(153, 205, 50, 0.274);
+    text-align: center;
+    font-size: xx-large;
+    transform: scale(1);
+    transition: 2s;
+}
+
+@keyframes anim {
+    0% {
+
+    }
 }
