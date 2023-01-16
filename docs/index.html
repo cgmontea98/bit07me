@@ -4,23 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="pagina-personal desarollador web front end"
+    />
+    <meta
+      name="description"
+      content="Página personal/Portafolio sobre desarollo web front"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!--GF-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--CSS-->
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Document</title>
+    <title>Cristian G Montealegre</title>
   </head>
   <body>
     <header>
-      <img class="marca" src="./img/1.png" alt="marca personal" srcset="">
-      <figure>
-        <img class="fp" src="./img/me.png" alt="Foto de perfil" />
-        <figcaption class="nom">Cristian G. Montealegre</figcaption>
+      <figure class="head__figCont">
+        <img class="figCont--perf" src="./img/me.jpg" alt="Foto de perfil" />
+        <figcaption class="figCont--nom">Cristian G. Montealegre</figcaption>
       </figure>
+      <ul class="head--lis">
+        <li class="lis--li">Desarrollador Web</li>
+        <li class="lis--li">Front-End</li>
+        <li class="lis--li">JavaScript</li>
+        <li class="lis--li">React</li>
+      </ul>
     </header>
+    <nav>
+      <ul class="nav--lis">
+        <li class="nav--li">Conóceme</li>
+        <li class="nav--li">Lo que hago</li>
+        <li class="nav--li">Encuéntrame</li>
+        <li class="nav--li">Contacto</li>
+        <li class="nav--li">Subir</li>
+      </ul>
+    </nav>
     <main class="main">
-      <h1 class="tt">Conóceme</h1>
+      <h1 class="t1">Conóceme</h1>
       <section class="main__section">
         <article class="section__article--C">
+          <h2 class="t2">Un poco sobre mí</h2>
           <div class="article__C--perfil">
-            <h2 class="tt">Un poco sobre mí</h2>
             <p>
               Acera de mi perfil puedo comentar que me caracterizo por rendir al
               máximo en las labores asignadas; aprendo con gran facilidad
@@ -31,12 +66,13 @@
               profesionales, personales y éticas.
             </p>
           </div>
-          <h2 class="tt">Sobre mi formación</h2>
+          <h2 class="t2">Sobre mi formación</h2>
           <div class="article__C--formación">
-            <dl class="formación--uno espaciados">
-              <dt >Bootcamp: Desarrollo Web React Front End</dt>
-              <dd class="espaciados">nov-2022 a mar-2023</dd>
-              <dd class="espaciados">
+            <dl class="formación--uno">
+              <span class="formacion--i">BIT</span>
+              <dt class="uno--t1">Bootcamp: Desarrollo Web React Front End</dt>
+              <dd class="uno--fecha">nov-2022 a mar-2023</dd>
+              <dd class="uno--des">
                 Incursione en el BIT el bootcamp de desarrollo web enfocado al
                 FrontEnd donde desarrolle habilidades en: maquetación (HTML, CSS
                 y Bootstrap), interacción y dinamismo con JavaScript y la
@@ -45,13 +81,14 @@
                 habilidades blandas (Fundaula- Accenture).
               </dd>
             </dl>
-            <dl class="formación--dos espaciados">
-              <dt>
+            <dl class="formación--uno">
+              <span class="formacion--i">Univ. Distriral</span>
+              <dt class="uno--t1">
                 Licenciatura en Educación con Énfasis en Humanidades y Lengua
                 Castellana
               </dt>
-              <dd class="espaciados">ene-2016 a actualidad</dd>
-              <dd class="espaciados">
+              <dd class="uno--fecha">ene-2016 a actualidad</dd>
+              <dd class="uno--des">
                 Me encuentro estudiando este programa, en donde he desarrollado
                 habilidades en la comprensión de diversos problemas humanos con
                 diversos abordajes como es el campo de la lingüística,
@@ -61,53 +98,46 @@
               </dd>
             </dl>
           </div>
+          <h2 class="t2">Qué habilidades he desarrollado</h2>
           <div class="article__C--habildiades">
-            <h2 class="tt tiH">Qué habilidades he desarrollado</h2>
-            <table>
-              <h4>
-                Habilidades
-              </h4>
+            <table class="habildiades--tabla">
               <tbody>
                 <tr>
-                  <td><h3>Técnicas</h3></td>
-                  <td><h3>Soft</h3></td>
+                  <td><h4 class="tabla-t4">Técnicas</h4></td>
+                  <td><h4 class="tabla-t4">Soft</h4></td>
                 </tr>
                 <tr>
                   <td>HTML</td>
-                  <td>Análisis, interpretación y crítica a problemas</td>
+                  <td class="hla">Análisis, interpretación y crítica a problemas</td>
                 </tr>
                 <tr>
                   <td>CSS</td>
-                  <td>Investigación con enfoque socio-cultural</td>
+                  <td class="hla">Investigación con enfoque socio-cultural</td>
                 </tr>
                 <tr>
                   <td>BOOTSTRAP</td>
                   <td>Redacción</td>
                 </tr>
                 <tr>
-                  <td>BOOTSTRAP</td>
+                  <td>REACT</td>
                   <td>Trabajo en equipo</td>
                 </tr>
                 <tr>
-                  <td>REACT</td>
+                  <td>GIT</td>
                   <td>Iniciativa / Liderazgo</td>
                 </tr>
                 <tr>
-                  <td>GIT</td>
-                  <td>Mediación</td>
-                </tr>
-                <tr>
                   <td>GITHUB</td>
-                  <td>Autcontrol</td>
+                  <td>Mediación</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <h2 class="tt t2">Acerca de mi mundo laboral</h2>
           <div class="article__C--laboral">
-            <h2 class="tt t2">Acerca de mi mundo laboral</h2>
             <div class="labora-uno">
               <h3 class="tt">Analista de riesgos</h3>
-              <span>AyC Consultores</span>
+              <span class="laboral--e">AyC Consultores</span>
               <span>Abr 2022 - Ago 2022</span>
               <p>
                 Encargado de verificar estudios de seguridad para
@@ -118,7 +148,7 @@
             </div>
             <div class="laboral-dos">
               <h3 class="tt">Agente call center</h3>
-              <span>SystemGroup</span>
+              <span class="laboral--e">SystemGroup</span>
               <span>Nov 2021 - Abr 2022</span>
               <p>
                 Me desempeñé en atención al servicio y manejo de PQR en primera
@@ -130,32 +160,40 @@
             </div>
           </div>
         </article>
-        <article>
-          <h2 class="tt">Lo que hago</h2>
+        <article class="section__article--L">
+          <h2 class="t2">Lo que hago</h2>
         </article>
-        <article>
+        <article class="section__article--E">
           <h2 class="tt">Encuéntrame</h2>
-          <div>GITHUB</div>
-          <div>LINKEDIN</div>
+          <div>
+            <a
+              href="https://github.com/cgmontea98"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa">&#xf09b; cgmontea98</i>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/cgmontea98/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa">&#xf08c; cgmontea98</i>
+            </a>
+          </div>
         </article>
       </section>
     </main>
-    <aside>
-      <nav>
-        <ul>
-          <li>Conóceme</li>
-          <li>Lo que hago</li>
-          <li>Encuéntrame</li>
-        </ul>
-      </nav>
-      <button>Subir</button>
-    </aside>
-    <footer>
-      <form action="">
+    <footer class="contacto">
+      <h2 class="t2">Contacto</h2>
+      <form>
         <label>Nombre y apellido</label>
         <input type="text" name="" id="" />
         <label>Coreeo</label>
         <input type="text" name="" id="" />
+        <label>Motivo de contacto</label>
         <select name="" id="">
           <option value=""></option>
           <option value="">Empleo</option>
@@ -167,7 +205,6 @@
         <input type="checkbox" name="" id="" />
         <button type="submit">¡Listo!</button>
       </form>
-      
     </footer>
     <script src="./js/main.js"></script>
   </body>
