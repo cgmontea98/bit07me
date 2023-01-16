@@ -52,7 +52,7 @@ nav {
 #li-l,
 #li-e,
 #li-co,
-#li-s{
+#li-s {
   border: 2px solid rgb(161, 141, 141);
   background-color: rgb(201, 149, 97);
 }
@@ -81,19 +81,18 @@ main {
 .habildiades--tabla {
   text-align: center;
 }
-.fa {
-  font-size: 24px;
-  padding: 5px;
-}
-.section__article--E {
-  display: grid;
-  gap: 5px;
-  place-items: center;
-}
 .laboral--e {
   display: block;
   font-style: italic;
   text-align: center;
+}
+.tt,
+.fa {
+  font-size: 24px;
+  margin: 5px 5px;
+  display: grid;
+  place-content: center;
+  place-items: center;
 }
 .section__article--C,
 .section__article--L,
@@ -163,6 +162,7 @@ form > button {
     display: grid;
     place-content: center;
     grid-template-columns: 240px 240px;
+    grid-template-columns: auto;
     gap: 35px;
   }
   .habildiades--tabla {
@@ -173,6 +173,14 @@ form > button {
   }
   .hla {
     width: 50%;
+  }
+  .tt,
+  .fa {
+    font-size: 24px;
+    margin: 5px 5px;
+    display: grid;
+    place-content: center;
+    place-items: center;
   }
   footer {
     display: grid;
@@ -238,6 +246,14 @@ form > button {
   }
   .hla {
     width: 50%;
+  }
+  .tt,
+  .fa {
+    font-size: 24px;
+    margin: 5px 5px;
+    display: grid;
+    place-content: center;
+    place-items: center;
   }
   footer {
     grid-area: footer;
