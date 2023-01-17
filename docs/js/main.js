@@ -21,7 +21,8 @@ btn2.addEventListener('click', (e) => {
     let mo2 = dis2.style.display
     
     if(mo2 === ''){
-        dis2.style.display = 'block'
+        dis2.style.display = 'block';
+        window.location.href = 'https://cgmontea98.github.io/bit06exercises/'
     }else{
         dis2.style.display = ''
     }
