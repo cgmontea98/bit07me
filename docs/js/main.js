@@ -27,17 +27,6 @@ btn2.addEventListener('click', (e) => {
         dis2.style.display = ''
     }
 })
-btn3.addEventListener('click', (e) => {
-    e.preventDefault();
-    let dis3 = document.querySelector('.section__article--E');
-    let mo3 = dis3.style.display
-    
-    if(mo3 === ''){
-        dis3.style.display = 'block'
-    }else{
-        dis3.style.display = ''
-    }
-})
 btn4.addEventListener('click', (e) => {
     e.preventDefault();
     let dis4 = document.querySelector('.contacto');

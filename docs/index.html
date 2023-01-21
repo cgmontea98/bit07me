@@ -24,6 +24,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <!--CSS-->
     <link rel="stylesheet" href="./css/main.css" />
     <title>Cristian G Montealegre</title>
@@ -32,28 +36,58 @@
     <header>
       <figure class="head__figCont">
         <img class="figCont--perf" src="./img/me.jpg" alt="Foto de perfil" />
-        <figcaption class="figCont--nom">Cristian G. Montealegre</figcaption>
       </figure>
-      <ul class="head--lis">
-        <li class="lis--li">Desarrollador Web</li>
-        <li class="lis--li">Front-End</li>
-        <li class="lis--li">JavaScript</li>
-        <li class="lis--li">React</li>
-      </ul>
+      <div class="head__figCont--span">
+        <h1 class="figCont--nom">Cristian G. Montealegre</h1>
+        <span class="div--span">Desarrollador Web |</span>
+        <span class="div--span">Front-End |</span>
+        <span class="div--span">JavaScript |</span>
+        <span class="div--span">React</span>
+      </div>
     </header>
     <nav>
       <ul class="nav--lis">
-        <li class="nav--li"><button id="li-c">Conóceme</button></li>
-        <li class="nav--li"><button id="li-l">¡¡Proyectos!!</button></li>
-        <li class="nav--li"><button id="li-e">Encuéntrame</button></li>
-        <li class="nav--li"><button id="li-co">Contacto</button></li>
+        <li class="nav--li" id="li-l">
+          <span class="material-symbols-outlined"> developer_mode </span
+          >Proyectos
+        </li>
+        <li class="nav--li" id="li-c">
+          <span class="material-symbols-outlined"> waving_hand </span>Conóceme
+        </li>
+        <li class="nav--li" id="li-co">
+          <span class="material-symbols-outlined">
+            connect_without_contact </span
+          >Contacto
+        </li>
       </ul>
     </nav>
     <main class="main">
-      <h1 class="t1">Conóceme</h1>
       <section class="main__section">
+        <article class="section__article--L">
+          <h2 class="h2">Proyectos</h2>
+          <div>
+            <p>
+              Proyecto donde se recoge todo lo visto y realizado en el primer
+              modulo. Se aplica HTML, CSS, Bootstrap y JavaScritp para ejecutar
+              todas las funcionalidades vistas desde el primer día. En la página
+              del login se uso bootstrap como una forma de realizar algo rapido
+              y sencillo. Para el caso de los ejercicios, solo se ha recurrido a
+              el usos de tecnologias en versiones puras (vainillas). Es un
+              proyecto que aún está en construcción debido a que se le agragará
+              nuevas funcionalidades como también animaciones con CSS.
+            </p>
+            <button>
+              <a
+                href="https://cgmontea98.github.io/bit06exercises/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ver más</a
+              >
+            </button>
+          </div>
+        </article>
         <article class="section__article--C">
-          <h2 class="t2">Un poco sobre mí</h2>
+          <h2 class="h2">Un poco sobre mí</h2>
           <div class="article__C--perfil">
             <p>
               Acera de mi perfil puedo comentar que me caracterizo por rendir al
@@ -65,7 +99,7 @@
               profesionales, personales y éticas.
             </p>
           </div>
-          <h2 class="t2">Sobre mi formación</h2>
+          <h2 class="h2">Sobre mi formación</h2>
           <div class="article__C--formación">
             <dl class="formación--uno">
               <span class="formacion--i">BIT</span>
@@ -97,14 +131,16 @@
               </dd>
             </dl>
           </div>
-          <h2 class="t2">Qué habilidades he desarrollado</h2>
+          <h2 class="h2">Qué habilidades he desarrollado</h2>
           <div class="article__C--habildiades">
             <table class="habildiades--tabla">
-              <tbody>
+              <thead>
                 <tr>
                   <td><h4 class="tabla-t4">Técnicas</h4></td>
                   <td><h4 class="tabla-t4">Soft</h4></td>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>HTML</td>
                   <td class="hla">
@@ -134,7 +170,7 @@
               </tbody>
             </table>
           </div>
-          <h2 class="tt t2">Acerca de mi mundo laboral</h2>
+          <h2 class="h2">Acerca de mi mundo laboral</h2>
           <div class="article__C--laboral">
             <div class="labora-uno">
               <h3 class="tt">Analista de riesgos</h3>
@@ -161,52 +197,36 @@
             </div>
           </div>
         </article>
-        <article class="section__article--L">
-          <h2 class="t2">Proyectos</h2>
-          <div>
-            <p>
-              Proyecto donde se recoge todo lo visto y realizado en el primer
-              modulo. Se aplica HTML, CSS, Bootstrap y JavaScritp para ejecutar
-              todas las funcionalidades vistas desde el primer día. En la página
-              del login se uso bootstrap como una forma de realizar algo rapido
-              y sencillo. Para el caso de los ejercicios, solo se ha recurrido a
-              el usos de tecnologias en versiones puras (vainillas). Es un
-              proyecto que aún está en construcción debido a que se le agragará
-              nuevas funcionalidades como también animaciones con CSS.
-            </p>
-            <button>
-              <a
-                href="https://cgmontea98.github.io/bit06exercises/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Ver más</a
-              >
-            </button>
-          </div>
-        </article>
-        <article class="section__article--E">
-          <h2 class="tt">Encuéntrame</h2>
-          <a
-            href="https://github.com/cgmontea98"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="fa-u"
-          >
-            <i class="fa fa-u">&#xf09b; cgmontea98</i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/cgmontea98/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="fa-d"
-          >
-            <i class="fa fa-d">&#xf08c; cgmontea98</i>
-          </a>
-        </article>
       </section>
     </main>
     <footer class="contacto">
-      <h2 class="t2">Contacto</h2>
+      <article class="section__article--E">
+        <h2 class="h2">Encuéntrame</h2>
+        <a
+          href="https://github.com/cgmontea98"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="fa-u"
+        >
+          <i class="fa fa-u">&#xf09b;</i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/cgmontea98/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="fa-d"
+        >
+          <i class="fa fa-d">&#xf08c;</i>
+        </a>
+        <a
+          href="https://www.instagram.com/cg_montealegre/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="fa-u"
+        >
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </article>
       <form>
         <label>Nombre y apellido</label>
         <input type="text" name="" id="" />
@@ -221,7 +241,6 @@
         </select>
         <label for="">¿Quieres dejar un comentario?</label>
         <textarea name="" id="" cols="30" rows="10"></textarea>
-        <input type="checkbox" name="" id="" />
         <button type="submit">¡Listo!</button>
       </form>
     </footer>
