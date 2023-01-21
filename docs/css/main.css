@@ -81,7 +81,7 @@ main {
 }
 footer {
   background-color: rgba(128, 128, 128, 0.665);
-  background-image: url(/docs/img/1.png);
+  background-image: url(../img/1.png);
   background-position-x: center;
   background-position-y: center;
   background-blend-mode: multiply;
