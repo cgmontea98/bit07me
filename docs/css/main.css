@@ -9,7 +9,7 @@ body {
 .head__figCont {
   margin: 0;
   padding: 0;
-  max-width: 1024px;
+  max-width: auto;
   min-width: 310px;
 }
 .figCont--perf {
@@ -43,10 +43,12 @@ nav {
 .nav--li {
   display: inline;
   padding: 1em;
+  font-size: 1em;
 }
 .material-symbols-outlined {
   width: min-content;
-  /* margin-right: 0.25em; */
+  margin-right: 0.2em;
+  font-size: 1.5em;
 }
 #li-l {
   display: block;
@@ -81,38 +83,41 @@ main {
 }
 footer {
   background-color: rgba(128, 128, 128, 0.665);
-  background-image: url(../img/1.png);
-/*   background-position-x: center;
+  background-image: url(../img/marca_personal.png);
+  background-position-x: center;
   background-position-y: center;
-  background-blend-mode: multiply; */
+  background-blend-mode: multiply;
   border-bottom-right-radius: 29px;
   border-bottom-left-radius: 29px;
   display: grid;
   place-content: center;
   place-items: center;
 }
+.section__article--E {
+  text-decoration: none;
+  color: #4b4b4b;
+  font-size: 5em;
+  padding-right: 0.5em;
+  text-align: center;
+}
 a {
   text-decoration: none;
 }
 .fa {
-  color: #4b4b4b;
-  font-size: 5em;
-}
-.fa-u {
-  padding-right: 0.5em;
+  display: inline-block;
+  color: #3d623d;
 }
 .fa-instagram {
   display: block;
-  display: grid;
-  place-content: center;
-  place-items: center;
-  margin-bottom: 0.2em;
+}
+.hEn {
+  padding: 1em;
 }
 form {
   background-color: rgba(37, 94, 91, 0.534);
   border-radius: 30px;
   padding: 1em;
-  margin-bottom: 1em;
+  margin: 1em;
   display: grid;
   text-align: center;
 }
@@ -144,12 +149,25 @@ button {
     list-style: none;
     display: none;
   }*/
-
   .figCont--nom {
     display: block;
     font-size: xx-large;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     font-weight: 700;
+  }
+  .nav--li {
+    display: inline;
+    padding: 1em;
+    font-size: 1.24em;
+  }
+  .material-symbols-outlined {
+    width: min-content;
+    margin-right: 1em;
+    font-size: 2.5em;
+  }
+  .main {
+    width: 85%;
+    margin: auto;
   }
   .article__C--laboral,
   .article__C--formación {
@@ -170,83 +188,77 @@ button {
   }
   footer {
     display: grid;
-    place-content: center;
-    place-items: center;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
   }
-  form{
+  .section__article--E {
+    grid-row: 2;
+  }
+  .hEn {
+    grid-column: 1/3;
+  }
+  .fa-u,
+  .fa-d,
+  .fa-instagram {
+    display: block;
+  }
+  form {
+    grid-row: 2;
     background-color: rgba(37, 94, 91, 0.534);
     margin-top: 1em;
   }
 }
-/*
-@media screen and (min-width: 769px) and (max-width: 1440px) {
-  body {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas:
-      "header header header header"
-      "nav nav nav nav"
-      "main main main main"
-      "footer footer footer footer";
-  }
-  header {
-    grid-area: header;
-  }
-  .head__figCont {
-    text-align: center;
-  }
-  .figCont--perf {
-    max-width: 30%;
-    border-radius: 50%;
-  }
+
+@media screen and (min-width: 769px) {
   .figCont--nom {
-    font-style: oblique;
-    font-weight: 900;
-    font-size: 30px;
+    display: block;
   }
-  nav {
-    grid-area: nav;
+  .nav--li {
+    display: inline;
+    font-size: 1.5em;
   }
-  main {
-    grid-area: main;
-    width: 80%;
+  .material-symbols-outlined {
+    width: min-content;
+    margin-right: 1em;
+    font-size: 1.5em;
+  }
+  .main {
+    width: 70%;
+    margin: auto;
+  }
+  .article__C--habildiades {
+    display: grid;
+    place-content: center;
   }
   .article__C--laboral,
   .article__C--formación {
     display: grid;
-    place-content: center;
-    grid-template-columns: 380px 380px;
-    gap: 35px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4em;
   }
-  .habildiades--tabla {
-    display: grid;
-    place-items: center;
-    place-content: center;
-    text-align: center;
-  }
-  .hla {
-    width: 50%;
-  }
-  .tt,
-  .fa {
-    font-size: 24px;
-    margin: 5px 5px;
-    display: grid;
-    place-content: center;
-    place-items: center;
+  .laboral--e {
+    padding: 1em;
   }
   footer {
-    grid-area: footer;
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-  .t2 {
-    grid-column: 1/4;
-    text-align: center;
+  .hEn {
+    grid-column: 1/3;
   }
   form {
-    grid-column: 1;
+    position: relative;
+    grid-row: 2;
+    background-color: rgba(37, 94, 91, 0.534);
+    margin-top: 1em;
   }
-} */
+  .section__article--E {
+    position: relative;
+    grid-row: 2;
+  }
+  .fa-u,
+  .fa-d,
+  .fa-instagram {
+    display: block;
+  }
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,7 +12,11 @@
       name="description"
       content="Página personal/Portafolio sobre desarollo web front"
     />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="../docs/img/favicon.ico"
+      type="image/x-icon"
+    />
     <!--GF-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -76,14 +80,12 @@
               proyecto que aún está en construcción debido a que se le agragará
               nuevas funcionalidades como también animaciones con CSS.
             </p>
-            <button>
-              <a
-                href="https://cgmontea98.github.io/bit06exercises/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Ver más</a
-              >
-            </button>
+            <a
+              href="https://cgmontea98.github.io/bit06exercises/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Ver más</a
+            >
           </div>
         </article>
         <article class="section__article--C">
@@ -102,7 +104,7 @@
           <h2 class="h2">Sobre mi formación</h2>
           <div class="article__C--formación">
             <dl class="formación--uno">
-              <span class="formacion--i">BIT</span>
+              <dl class="formacion--i">BIT</dl>
               <dt class="uno--t1">Bootcamp: Desarrollo Web React Front End</dt>
               <dd class="uno--fecha">nov-2022 a mar-2023</dd>
               <dd class="uno--des">
@@ -115,7 +117,7 @@
               </dd>
             </dl>
             <dl class="formación--uno">
-              <span class="formacion--i">Univ. Distriral</span>
+              <dl class="formacion--i">Univ. Distriral</dl>
               <dt class="uno--t1">
                 Licenciatura en Educación con Énfasis en Humanidades y Lengua
                 Castellana
@@ -200,8 +202,8 @@
       </section>
     </main>
     <footer class="contacto">
+      <h2 class="h2 hEn">Encuéntrame</h2>
       <article class="section__article--E">
-        <h2 class="h2">Encuéntrame</h2>
         <a
           href="https://github.com/cgmontea98"
           target="_blank"
@@ -224,26 +226,25 @@
           rel="noopener noreferrer"
           class="fa-u"
         >
-        <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
       </article>
       <form>
         <label>Nombre y apellido</label>
-        <input type="text" name="" id="" />
+        <input type="text" />
         <label>Coreeo</label>
-        <input type="text" name="" id="" />
+        <input type="text" />
         <label>Motivo de contacto</label>
         <select name="" id="">
-          <option value=""></option>
-          <option value="">Empleo</option>
-          <option value="">Trabajo Independiente</option>
-          <option value="">Otro</option>
+          <option></option>
+          <option>Empleo</option>
+          <option>Trabajo Independiente</option>
+          <option>Otro</option>
         </select>
-        <label for="">¿Quieres dejar un comentario?</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <label>¿Quieres dejar un comentario?</label>
+        <textarea cols="30" rows="10"></textarea>
         <button type="submit">¡Listo!</button>
       </form>
     </footer>
-    <script src="./js/main.js"></script>
   </body>
 </html>
